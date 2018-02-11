@@ -1,0 +1,241 @@
+@media screen and (min-width:1024px) and (max-width:1260px) {
+    
+    .article_detail_img {
+        height: 55vw;
+    }
+
+    .feed_side a img {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .wrapper {
+        width: 100%;
+        margin: 0;
+    }
+    #slideshow {
+        height: 50vw;
+        width: auto;
+        float: none;
+    }
+    .feed_main {
+        float: none;
+        margin: 0 auto;
+    }
+    .title {
+        font-size: 1.2vw;
+    }
+    .articles_all {
+        margin-bottom: 20px;
+    }
+    
+}
+
+/* tablets */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #main {
+        padding: 0 0 500px 0;
+    }
+    .article_detail_img {
+        height: 55vw;
+    }
+    .feed_side a img {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .wrapper {
+        width: 100%;
+        margin: 0;
+    }
+    #slideshow {
+        height: 55vw;
+        width: auto;
+        float: none;
+    }
+    .feed_main {
+        float: none;
+        margin: 0 auto;
+    }
+    .title {
+        font-size: 1.2vw;
+    }
+    .title h2 {
+        padding: 30px;
+    }
+    .articles_all {
+        margin-bottom: 20px;
+    }
+    .list_categories,.user,.list_pages {
+        display: none;
+    }
+    .list_categories_btn,.list_pages_btn {
+        display: block;
+    }
+    .user {
+        position: relative;
+    }
+    .user ul li {
+        text-align: center;
+        float: none;
+    }
+    .nav ul li,.user ul li {
+        display: list-item;
+    }
+    .login_dropdown {
+        visibility: hidden;
+    }
+    .user_dropdown {
+        position: relative;
+        top: 0;
+    }
+    #footer {
+        padding: 20px;
+    }
+    .footer_social,.copyright {
+        margin-top: 10px;
+    }
+
+}
+
+/* mobile phones and small tablets */
+@media screen and (max-width:767px) {
+    #logo {
+        display: none;
+    }
+    #main {
+        padding: 0 0 500px 0;
+    }
+    #article_detail_wrap {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .author,.header_cont {
+        float: none;
+        font-size: .8em;
+    }
+    .author * {
+        float: none;
+    }
+    .comment_btn,.submit_btn {
+        width: 100%;
+    }
+    .comment_heading {
+        padding: 10px 0; 
+        width: 100%;
+    }
+    .comment_heading:before {
+        display: none;
+    }
+    #comment {
+        font-size: 1.1em;
+    }
+
+    
+    .feed_side a img {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .wrapper {
+        width: 100%;
+        margin: 0;
+    }
+    #slideshow {
+        height: 55vw;
+        width: auto;
+        float: none;
+    }
+    .feed_main {
+        float: none;
+        margin: 0 auto;
+    }
+    .title {
+        font-size: 1.9vw;
+    }
+    .title h2 {
+        padding: 20px;
+    }
+
+
+    .main_categorisation {
+        width: 100%;
+    }
+    .articles_all {
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    .articles_all_img,.article_detail_img {
+        height: 55vw;
+    }
+    .article_content {
+        min-height: auto;
+    }
+    .article_title * {
+        font-size: 3.5vw;
+        margin-bottom: 20px;
+    }
+    .sticker {
+        font-size: 3vw;
+        padding: 3px;
+    }
+
+    .list_categories,.user,.list_pages,.item_counter {
+        display: none;
+    }
+    .list_categories_btn,.list_pages_btn {
+        display: block;
+    }
+    .user {
+        position: relative;
+    }
+    .user ul li {
+        text-align: center;
+        float: none;
+    }
+    .nav ul li,.user ul li {
+        display: list-item;
+    }
+    .login_dropdown {
+        visibility: hidden;
+    }
+    .user_dropdown {
+        position: relative;
+        top: 0;
+    }
+    .profile_table {
+        font-size: 2.1vw;
+    }
+    .profile_table td {
+        padding: 5px;
+    }
+    .profile_img {
+        transform: translate(-50%,-140%);
+    }
+    #footer {
+        padding: 20px;
+    }
+    .footer_social,.copyright {
+        margin-top: 10px;
+    }
+    .footer_social {
+        font-size: 4vw;
+    }
+    .footer_social a {
+        padding: 7px;
+    }
+
+
+    .contact_details,.contact_form {
+    	overflow: hidden;
+    	float: none;
+    	width: inherit;
+    	text-align: center;
+    	position: relative;
+    }
+    .contact_wrap {
+		min-height: inherit;
+	}
+}

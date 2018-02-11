@@ -1,0 +1,10 @@
+*.log
+db_connect.php
+uploads/
+
+/.htaccess
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
+

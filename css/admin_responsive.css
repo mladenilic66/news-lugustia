@@ -1,0 +1,124 @@
+@media screen and (min-width:1024px) and (max-width:1260px) {
+    table tr td{
+        word-wrap: break-word;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
+    .sidebar {
+        text-align: center;
+        position: relative;
+        margin-top: 45px;
+        width: 100%;
+        z-index: 1;
+    }
+    .menu {
+        display: block;
+    }
+    .menu_links {
+        display: none;
+    }
+    .sidebar_content {
+        margin: 0;
+    }
+    .main {
+        z-index: 3;
+        padding: 40px; 
+    }
+
+    .total {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
+/* tablets */
+@media screen and (min-width:768px) and (max-width:1023px) {
+    table {
+        word-wrap: break-word;
+    }
+    .table_main tr td {
+        padding: 5px;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
+    .sidebar {
+        text-align: center;
+        position: relative;
+        margin-top: 45px;
+        width: 100%;
+        z-index: 1;
+    }
+    .menu {
+        display: block;
+    }
+    .menu_links {
+        display: none;
+    }
+    .sidebar_content {
+        margin: 0;
+    }
+    .main {
+        z-index: 3;
+        padding: 40px; 
+    }
+    .total { 
+        flex-direction: column;
+    }
+}
+
+/* mobile phones and smaller tablets */
+@media screen and (max-width:767px) {
+    table {
+        word-wrap: break-word;
+        font-size: 2vw;
+    }
+    .admin_user_table tr td input,
+    .admin_user_table tr th input,
+    .admin_user_table select {
+        padding: 5px;
+    }
+    .table_main tr td,.table_main, .table_main tr th,.table_info,.admin_user_table tr td,.admin_user_table tr th,.admin_user_table {
+        padding: 5px;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
+    .sidebar {
+        text-align: center;
+        position: relative;
+        margin-top: 45px;
+        width: 100%;
+        z-index: 1;
+    }
+    .user_nav {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .menu_links {
+        display: none;
+    }
+    .sidebar_content {
+        margin: 0;
+    }
+    .main {
+        z-index: 3;
+        padding: 40px 10px; 
+    }
+    .btn_submit {
+        width: 100%;
+    }
+    .total {
+        flex-direction: column;
+    }
+}
